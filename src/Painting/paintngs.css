@@ -1,0 +1,19 @@
+  .painting-box{
+    padding:20px;
+    position: relative;
+    border:2px solid #792f2f;
+    border-radius: 30px;
+    margin: 40px 0;
+    height: 200px;
+  }
+  .painting-box span{
+    margin:18px;
+  }
+
+  .close-button{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+  }
