@@ -19,7 +19,7 @@ class App extends React.Component {
    deleteCurrentbox = (boxindex)=>{   // this is the current method in painting which removes the current box ,recieving index of the box as argument
     const paintingreplica = [...this.state.paintings]; //we are duplicating the paintings because arrays and objects are pass by reference in javascript so this will create an copy of the object painting and by doing this we are avoiding direct update on the object
      paintingreplica.splice(boxindex,1); //  by index we are removing the box from the array
-     this.setState({paintings:paintingreplica}); // finally updating the state with replica
+     this.setState({paintings:paintingreplica}); // finally updating the state with replicaa
 
   }
 
