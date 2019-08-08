@@ -7,6 +7,7 @@ const painting  = (props) => {    // this is functional component of react where
   return (
     <div>
       <div className="blue painting-box">
+       <img src={props.pic} alt={props.title}/>
        <button className="close-button" onClick={props.close}>X</button>
        <div className="container-box">
         <div className="title">{props.title}</div>
@@ -15,7 +16,7 @@ const painting  = (props) => {    // this is functional component of react where
         <span>{props.name} </span>
         <span>{props.category} </span>
         <span>{props.author} </span>
-        <input type="text" onChange={props.change} value={props.name}/>
+        <input type="text" onChange={props.changed}/>
         </div>
        </div>
       </div>
